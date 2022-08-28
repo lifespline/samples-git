@@ -1,15 +1,3 @@
-```mermaid
-%%{init: { 'logLevel': 'debug', 'theme': 'forest', 'gitGraph': {'showBranches': true, 'rotateCommitLabel': true, 'mainBranchName': 'latest', 'showCommitLabel': true }} }%%
-      gitGraph
-        branch integration
-        branch f/feature/final
-        branch f/feature
-        commit id:"dev: install vscode ext" tag:"1.0.0"
-        commit id:"dev: create diagram" tag:"1.0.0"
-        commit id:"doc: change readme"
-
-```
-
 ||f/feature|f/feature/final|release|latest|
 |:-|:-|:-|:-|:-|
 |commit|✔️|❌|❌|❌|
@@ -17,7 +5,7 @@
 |pull|✔️|✔️|✔️|✔️|
 |merge\*|✔️|✔️|✔️|✔️|
 |delete|⚠️|✔️|❌|❌|
-|squash-all|❌|✔️|❌|❌|
+|squash-all|❌|❌|❌|❌|
 |tag|✔️||||
 
 |**merge**|f/feature|f/feature/final|release|latest|
