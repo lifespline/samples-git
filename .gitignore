@@ -1,3 +1,5 @@
 # py venv
 .env
 
+# task runner
+__pycache__
